@@ -1,45 +1,29 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
 # NomedoProjeto
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 3<br>
+**Conteúdo da Disciplina**: Greed<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 17/0129411  |  Guilherme Mendes Pereira |
+| 17/0163571 |  Murilo Loiola Dantas |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O projeto busca representar tridimensionalmente a árvore geradora mínima de todos os exoplanetas decobertos até o momento (com algumas exceções), tendo a Terra como raíz. A árvore geradora mínima foi calculada utilizando o Algoritmo de Prim. Na representação, as distâncias e posições de cada planeta (pontos) são proprocionais aos valores reais.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
+**Linguagem**: Python<br>
 **Framework**: (caso exista)<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+## Outros
+* Os dados necessários para calcular a distância entre os planetas foram tirados daqui: [NASA - Confirmed Planets](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=planets).
+* Nem todos os planetas descobertos foram utilizados no projeto. 10 planetas não continham um valor de distância na planilha e, por isso, foram descartados. Outros apenas foram descobertos muito recentemente e ainda não estão catalogados.
+* O grafo gerado a partir da tabela e utilizado como base para o Algoritmo de Prim possui 18.344.089 arestas, representando todas as distâncias entre todos os 4.283 vértices/planetas.
