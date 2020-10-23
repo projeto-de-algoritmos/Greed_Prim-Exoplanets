@@ -53,9 +53,9 @@ fig = go.FigureWidget(data=[go.Scatter3d(x=df_data['x'],
                                    marker=dict(color=[
                                        f'rgb({random.randint(0, 256)}, {random.randint(0, 256)}, {random.randint(0, 256)})'
                                        for _ in range(4283)]),
-                                   hovertemplate='<b>Name</b>: %{text}<br>Distance to Earth: %{customdata} '
-                                                 'light-years<br><a href=\"https://exoplanetarchive.ipac.caltech.edu/'
-                                                 'overview/%{text}\">Link for details</a>',
+                                   hovertemplate='<b>Name</b>: %{text}<br><a href=\"https://exoplanetarchive.ipac.caltech.edu/'
+                                                 'overview/%{text}\">Link for details</a><br>Distance to Earth: %{customdata} '
+                                                 'light-years<br>',
                                    text=df_data['pl_name'],
                                    customdata=df_data['d'],
                                    ),
