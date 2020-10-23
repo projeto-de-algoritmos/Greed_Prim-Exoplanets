@@ -13,7 +13,22 @@
 O projeto busca representar tridimensionalmente a árvore geradora mínima de todos os exoplanetas decobertos até o momento (com algumas exceções), tendo a Terra como raíz. A árvore geradora mínima foi calculada utilizando o Algoritmo de Prim. Na representação, as distâncias e posições de cada planeta (pontos) são proporcionais aos valores reais.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+* Plotagem dos 4.283 exoplanetas/vérticies + arestas:
+![screenshot_6.png](src/assets/screenshot_6.png)
+
+* Detalhes do Exoplaneta Kepler-40 b + [Link para informações sobre o Exoplaneta](https://exoplanetarchive.ipac.caltech.edu/overview/Kepler-40%20b) (Screenshot abaixo) + Distância da Terra em [Anos-Luz](https://spaceplace.nasa.gov/light-year/en/):
+![screenshot_1.png](src/assets/screenshot_1.png)
+![screenshot_5.png](src/assets/screenshot_5.png)
+
+* Planeta Terra + Arestas da árvore geradora mínima.
+![screenshot_2.png](src/assets/screenshot_2.png)
+
+* Visualização de uma Aresta contendo a distância calculada em [Anos-Luz](https://spaceplace.nasa.gov/light-year/en/) entre 2 Exoplanetas.
+![screenshot_3.png](src/assets/screenshot_3.png)
+
+* Planeta Terra (Raíz da árvore geradora mínima)
+![screenshot_4.png](src/assets/screenshot_4.png)
+
 
 ## Instalação 
 **Linguagem**: Python<br>
