@@ -3,6 +3,7 @@ import pandas as pd
 import csv
 import random
 
+
 df_data = pd.read_csv('../pre-processing/planets_xyz_values.csv')
 
 df_data['d'] = 3.26156 * df_data['d']
@@ -53,10 +54,13 @@ fig = go.Figure(data=[go.Scatter3d(x=df_data['x'],
                                    marker=dict(color=[
                                        f'rgb({random.randint(0, 256)}, {random.randint(0, 256)}, {random.randint(0, 256)})'
                                        for _ in range(4283)]),
-                                   hovertemplate='<b>Name</b>: %{text}<br>Distance to Earth: %{customdata} light-years',
+                                   hovertemplate='<b>Name</b>: %{text}<br>Distance to Earth: %{customdata} '
+                                                 'light-years<br><a href=\"https://exoplanetarchive.ipac.caltech.edu/'
+                                                 'overview/%{text}\">Link for details</a>',
                                    text=df_data['pl_name'],
                                    customdata=df_data['d'],
                                    ),
+
                       go.Scatter3d(x=(0, 0),
                                    y=(0, 0),
                                    z=(0, 0),
@@ -71,5 +75,6 @@ fig = go.Figure(data=[go.Scatter3d(x=df_data['x'],
                                    hovertemplate='<b>Distance</b>: %{text} light-years',
                                    mode='lines',
                                    name='')], layout=layout)
+
 
 fig.show()

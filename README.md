@@ -1,4 +1,4 @@
-# NomedoProjeto
+# Prim-Exoplanets
 
 **Número da Lista**: 3<br>
 **Conteúdo da Disciplina**: Greed<br>
@@ -21,8 +21,21 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
+* Clone o repositório:
+```bash
+git clone https://github.com/projeto-de-algoritmos/Greed_Prim-Exoplanets.git
+```
+* Acesse o repositório e instale as bibliotecas necessárias:
+```bash
+cd Greed_Prim-Exoplanets/
+pip3 install -r requirements.txt
+```
+* Execute visualizaton.py e aguarde a plotagem do Prim-Exoplanets:
+```bash
+python3 src/visualizaton.py
+```
+* Após a execução será possível a visualização do gráfico gerado no browser.
+ 
 ## Outros
 * Os dados necessários para calcular a distância entre os planetas foram tirados daqui: [NASA - Confirmed Planets](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=planets).
 * Nem todos os planetas descobertos foram utilizados no projeto. 10 planetas não continham um valor de distância na planilha e, por isso, foram descartados. Outros apenas foram descobertos muito recentemente e ainda não estão catalogados.
