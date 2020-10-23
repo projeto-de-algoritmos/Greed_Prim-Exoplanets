@@ -37,6 +37,9 @@ python3 src/visualizaton.py
 
 ## Uso 
 
+### Vídeo explicativo
+[Video](https://github.com/projeto-de-algoritmos/Greed_Prim-Exoplanets/blob/master/video_explicativo.mp4)
+
 * Segure o botão esquerdo do mouse para rotacionar o campo de visão.
 * Segure o botão direito do mouse para transladar o campo de visão.
 * Utilize o scroll do mouse para controlar o nível de zoom.
